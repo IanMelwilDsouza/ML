@@ -1,0 +1,5 @@
+# Repository description
+Local/Working directory        : Local working directoty in a local Machine
+Local repository (.git)        : This is repository in a local Machine
+origin main                    : Remote repository
+origin/main                    : Local repository (.git)
