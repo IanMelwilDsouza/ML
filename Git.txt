@@ -15,3 +15,9 @@ git branch NewBranchName       : To create a new branch
 git checkout BranchName        : To checkout from one branch to another
 git checkout -b NewBranchName  : To create a new branch and checkout to a new branch
 git push origin NewBranchName  : To push the local branch to remote for the first time
+
+
+# Deleting the branches
+git branch -m NewBranchName    : To rename a branch locally
+git branch -d DeleteBranchName : To delete a branch locally
+git push origin --delete DeleteBranchName : To delete a remote branch
