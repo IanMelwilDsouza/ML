@@ -8,3 +8,10 @@ origin/main                    : Local repository (.git)
 git add FileName/git add --all : To move the untracked files inside the local repository (.git)
 git commmit -m "CommitMessage" : To commit the new files
 git push                       : To push to remote repository
+
+
+# Creating, checking out and pushing the new branches to remote repository
+git branch NewBranchName       : To create a new branch
+git checkout BranchName        : To checkout from one branch to another
+git checkout -b NewBranchName  : To create a new branch and checkout to a new branch
+git push origin NewBranchName  : To push the local branch to remote for the first time
